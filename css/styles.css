@@ -8,33 +8,27 @@ Do they best you can with this, talk with each other and help each other. Most c
     padding: 0;
  
  }
- 
+
  body {
     margin: 25px 50px;
-    background-color: lightblue;
+    background-color: #373038;
  
  }
  
  nav a {
-    color: #047F8C;
+    color: #FB702D;
     text-transform: uppercase;
  }
- 
+
  .center {
-    margin: 0 auto;
-    width: 200px;
-    display: flex;
-    justify-content: center;
- }
- 
- #blue-background {
-    padding: 2em;
-    background-color: lightblue;
- 
- }
+   margin: 0 auto;
+   width: 200px;
+   display: flex;
+   justify-content: center;
+}
  
  .responsive {
-    width: 100%;
+    width: 50%;
     height: auto;
  }
  
@@ -42,36 +36,42 @@ Do they best you can with this, talk with each other and help each other. Most c
     font-family: "VT323", system-ui;
     font-size: 50px;
     letter-spacing: .1em;
- 
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #3A400C;
+    color: #862FE0;
  
     text-align: center;
  
     text-transform: uppercase;
  }
  
- h1 a {
+   h1 a {
     color: #3A400C;
  }
  
  
  h2 {
-    color: black;
-    font-family: "Josefin Sans", system-ui;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 30px;
+   font-family: "VT323", system-ui;
+   font-size: 35px;
+   letter-spacing: .1em;
+   margin-left: 15px;
+   margin-right: 15px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   color: #88E032;
+
+   text-align: center;
+
+   text-transform: uppercase;
  }
  
  p {
-    font-family: "Lato", serif;
-    color: black;
+    font-family: "EB Garamond", system-ui;
+    color: white;
     padding: 15px;
+    font-size: 18px;
  }
  
  code {
@@ -94,24 +94,25 @@ Do they best you can with this, talk with each other and help each other. Most c
    padding: 10px;
     font-size: 18px;
     text-decoration: none;
+   color: #FFC341;
  
  }
  
  h3 {
     font-size: 18px;
     font-family: "Josefin Sans", system-ui;
-    color: #047F8C;
+    color: #88E032;
  }
  
  li {
     font-size: 10px;
     text-decoration: none;
     font-family: "Josefin Sans", system-ui;
-    color: black;
+    color: #88E032;
  }
  
  ul a {
-    color: black;
+    color: #88E032;
  }
  
  .social-links {
